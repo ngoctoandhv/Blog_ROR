@@ -1,11 +1,17 @@
 // edit-post
 .authors {
-  .paragraph {
+  .paragraph, .image {
     transition: background-color 0.5s ease;
     &:hover {
       background-color: #ecf2f9;;
       cursor: pointer;
       border-radius: 5px;
+    }
+  }
+  .image {
+    text-align: center;
+    img {
+      max-width: 80%;
     }
   }
 }
