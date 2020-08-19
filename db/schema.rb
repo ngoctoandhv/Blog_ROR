@@ -68,7 +68,7 @@ ActiveRecord::Schema.define(version: 2020_08_18_160223) do
     t.string "title"
     t.text "description"
     t.boolean "published"
-    t.datetime "pubished_at"
+    t.datetime "published_at"
     t.bigint "author_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
