@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: "home#index"
+  root to: "authors/posts#index"
 
   devise_for :authors
   scope module: 'authors' do 
